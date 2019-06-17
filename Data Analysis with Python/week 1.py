@@ -63,9 +63,9 @@ df[['length','compression-ratio']].describe()    # include = 'all' do not change
 
 df.info
 
-# ------WEEK 2 ----------------
-# ------WEEK 2 ----------------
-# ------WEEK 2 ----------------
+# ------WEEK 2 ---------------
+# ------WEEK 2 ---------------
+# ------WEEK 2 ---------------
 df.dropna(subset = ['symboling'],axis = 0)  #axis = 0 drop the row,  axis = 1 drop the column
 
 df.head(5)q
